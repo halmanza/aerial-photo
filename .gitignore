@@ -1,6 +1,6 @@
 *.pyc
 db.sqlite3
-env/
-*config.py
+
+
 __pycache__
 static/
