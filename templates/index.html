@@ -1,0 +1,62 @@
+{%extends 'base.html'%} {%block head%}Aerial Photography{%endblock%} {%block
+header%} {%endblock%} {%block body%}
+<div class="media">
+  <div class="card-group">
+    <div class="card bg-dark">
+      <img
+        src="../static/images/5.jpg"
+        class="card-img-top"
+        alt="drone photo of front of white house"
+      />
+      <div class="card-body ">
+        <h5 class="card-title text-white">Aerial Photography Options</h5>
+        <p class="card-text text-white">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-white">Last updated {{time}} mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-dark">
+      <img
+        src="../static/images/1.jpg"
+        class="card-img-top"
+        alt="Drone photo in front of a house"
+      />
+      <div class="card-body">
+        <a href=""><h5 class="card-title text-white">Custom Packages</h5></a>
+        <p class="card-text text-white">
+          In addition to our regular offerings, we also can tailor our work to
+          any specific project. If you don't see a particular drone photography option,
+          please reach out to us and we will put together an option that best
+          suits your needs.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-white">Last updated {{time}} mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-dark">
+      <img
+        src="../static/images/2.jpg"
+        class="card-img-top"
+        alt="Aerial drone photo over a white house with a pool"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Post Production</h5>
+        <p class="card-text text-white">
+          We can streamline the photography process by providing post-production image editing, and 
+          enable you to focus on selling your property. We utilize industry standard editing software (Lightroom, Photoshop, etc.) and 
+          can format an image to emphasize the best attributes of your property.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-white">Last updated {{time}} mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%endblock%}

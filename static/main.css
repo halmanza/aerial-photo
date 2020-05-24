@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+/* Base styles */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  padding-top: 40px;
+  background-color: #253768 ;
+}
+
+nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+ 
+}
+
+
+
+input[type='submit']{
+  background-color: white;
+}
+
+main {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  background-color: #253768 ;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: grey;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+p {
+  margin: 3px;
+  padding: 3px;
+  text-indent: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+/* About styles */
+
+
+p.card-text {
+  color: black;
+  margin: 5px;
+  padding: 0px;
+}
+
+/* Index styles */
+header.index-head {
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Gallery Styles */
+.media {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.gallery {
+  width: 300px;
+  border: 5px solid lightgrey;
+  border-radius: 10px;
+}
+
+/* Sign-Up Page */
+form {
+  height: 500px;
+  color: white;
+}
+
+@media (min-width: 375px) {
+  section.gallery {
+    width: 350px;
+  }
+}
+@media (min-width: 414px) {
+  section.gallery {
+    width: 380px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 10px;
+  }
+  p {
+    margin: 1px;
+    padding: 1px;
+    text-indent: 10px;
+  }
+
+  section.gallery {
+    width: 400px;
+    margin: 2px;
+    border: 5px solid lightskyblue;
+  }
+  .media {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+ .card-columns{
+   column-count: 2;
+ }
+  
+  footer{
+    position: fixed;
+  }
+}
+@media (min-width: 1200px) {
+  div.portfolio2 {
+    background-image: url(../static/images/portrait2.JPG);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    border: 2px solid grey;
+    border-radius: 1px;
+  }
+
+
+}
