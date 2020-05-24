@@ -4,7 +4,6 @@ from model import RegForm
 from flask_bootstrap import Bootstrap
 import smtplib
 
-
 app = Flask(__name__)
 if app.config['ENV'] == "production":
     app.config.from_object("config.ProductionConfig")
